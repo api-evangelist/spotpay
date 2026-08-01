@@ -1,22 +1,69 @@
 aid: spotpay
-name: Spotpay
-description: Spotpay is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: SpotPay
+description: 'SpotPay is a global neobank that operates as a stablecoin-based global bank account,
+  letting users hold, send, receive, and spend money anywhere in the world from a single identity-verified
+  digital wallet without a traditional bank account. The service settles payments on blockchain rails
+  using stablecoins and pairs the wallet with the SpotPay Calypso debit card plus Apple Pay and Google
+  Pay support, and lets merchants accept QR-code payments with instant settlement. Founded by Zsika
+  Phillip (CEO, ex-Google) and Thomas Cesare-Herriau (CTO, ex-Brex), SpotPay is a Y Combinator Winter
+  2026 company operating across 40+ countries and registered as a Money Services Business with FinCEN
+  in the United States. As of this enrichment pass SpotPay is a consumer mobile-app product with no
+  public API, developer portal, SDKs, or OpenAPI surface; api.spotpay.ai serves only the app''s private
+  backend.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.spotpay.ai/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/spotpay/refs/heads/main/apis.yml
+humanURL: https://www.spotpay.ai/
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+x-yc-batch: W2026
+x-founders:
+- Zsika Phillip (CEO, ex-Google)
+- Thomas Cesare-Herriau (CTO, ex-Brex)
+x-regulatory: Registered Money Services Business (MSB) with FinCEN (United States)
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none-public
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Payments
+- Neobank
+- Stablecoin
+- Blockchain
+- Fintech
+- Digital Wallet
+- Cross-Border Payments
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/spotpay-domain-security.yml
+- type: Website
+  url: https://www.spotpay.ai/
+- type: SignUp
+  url: https://www.spotpay.ai/download
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
