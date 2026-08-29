@@ -10,6 +10,17 @@ description: 'SpotPay is a global neobank that operates as a stablecoin-based gl
   in the United States. As of this enrichment pass SpotPay is a consumer mobile-app product with no
   public API, developer portal, SDKs, or OpenAPI surface; api.spotpay.ai serves only the app''s private
   backend.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
